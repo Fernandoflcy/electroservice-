@@ -1,0 +1,212 @@
+/* Estilos para a página principal */
+header {
+  background-color: hsla(207, 89%, 30%, 1); /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  text-align: center; /* Alinhamento do texto */
+  padding: 20px 0; /* Espaçamento interno */
+}
+
+header h1 {
+  margin: 0; /* Remover margem padrão do título */
+  font-size: 2rem; /* Tamanho da fonte */
+  text-transform: uppercase; /* Transformar texto em maiúsculas */
+}
+body{
+  background-color: #FFFFFF
+}
+nav {
+  background-color: #444;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.separador {
+  height: 2px;
+  background-color: #999;
+  margin: 20px 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  width: 100%;
+}
+
+section {
+  flex: 1;
+}
+h2 {
+  font-size: 2rem; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  margin-bottom: 20px; /* Espaçamento inferior */
+  text-align: center; /* Alinhamento centralizado */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  padding: 3px;
+  margin: 5px 0;
+
+}
+
+/* Estilos para o footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px; /* Adicionei um espaçamento uniforme */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999; /* Garante que o footer esteja sempre acima de outros elementos */
+}
+
+
+
+/* Estilos para os ícones de mídia social */
+social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.social-icons a.icon.youtube {
+  background-image: url('YouTube.png');
+  background-size: cover;
+}
+
+.social-icons a.icon.facebook {
+  background-image: url('facebook.png');
+  background-size: cover;
+}
+
+.social-icons a.icon.instagram {
+  background-image: url('Instagram.png');
+  background-size: cover;
+}
+
+.social-icons a.icon.whatsapp {
+  background-image: url('whatsApp.png');
+  background-size: cover;
+}
+
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 12200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para as seções */
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  margin: 0 10px;
+  border-bottom: 5px;
+}
+
+/* Estilos para os cards */
+.card {
+  border: 5px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin: 0 10px;
+  border-color: #191A17
+}
+
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-content h3 {
+  margin: 0;
+}
+
+.card-content p {
+  margin: 10px 0;
+}
+
+/* Estilo para separação entre os cards */
+.card + .card {
+  margin-top: 20px;
+}
+/* Estilos para os vídeos */
+.card video {
+  width: 100%; /* Define a largura do vídeo para ocupar toda a largura do seu contêiner */
+  border-radius: 10px; /* Adiciona bordas arredondadas aos vídeos */
+}
+
+/* Estilos para os cards */
+.card {
+  margin-bottom: 20px; /* Adiciona espaçamento entre os cards */
+  border: 1px solid #ccc; /* Adiciona uma borda sólida ao redor dos cards */
+  border-radius: 10px; /* Adiciona bordas arredondadas aos cards */
+  overflow: hidden; /* Garante que qualquer conteúdo extra não seja exibido fora dos limites do card */
+}
+
+.card-content {
+  padding: 15px; /* Adiciona preenchimento interno ao conteúdo do card */
+}
+
+.card h3 {
+  margin-top: 0; /* Remove a margem superior padrão do título */
+}
+
+.card p {
+  margin-bottom: 0; /* Remove a margem inferior padrão do parágrafo */
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 2s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

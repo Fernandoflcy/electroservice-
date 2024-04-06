@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="Pt">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles1.css">
+  <title>Entrar na Electro∆Service</title>
+</head>
+<body>
+  <section>
+    <div class="form-box">
+      <div class="form-value">
+        <form id="loginForm" action="pagina principal.html" method="POST">
+          <h2>Login</h2>
+          <div class="inputbox">
+            <input type="text" id="username" required>
+            <label for="username">Nome do Usuário</label>
+          </div>
+          <div class="inputbox">
+            <input type="password" id="password" required>
+            <label for="password">Password</label>
+          </div>
+          <div class="forget">
+            <label>
+              <p>Perdi minha senha🥺</p>
+              <a href="#">Recuperar senha</a>
+            </label>
+          </div>
+          <button type="submit">Entrar</button>
+          <div class="register">
+            <p>Eu não tenho uma conta <a href="#">Registrar📝</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      // Verificação do nome de usuário e senha
+      if (username === "Electro∆Service" && password === "123456") {
+        // Usuário e senha corretos, permita o envio do formulário
+        return true;
+      } else {
+        // Usuário ou senha incorretos, impedir o envio do formulário
+        alert("Nome de usuário ou senha incorretos.");
+        event.preventDefault();
+        return false;
+      }
+    });
+  </script>
+ 
+  <footer>
+    <div class="social-icons">
+  <a href="#" class="icon youtube"></a>
+  <a href="#" class="icon facebook"></a>
+  <a href="#" class="icon instagram"></a>
+  <a href="#" class="icon whatsapp"></a>
+</div>
+    <p>&copy; 2023 Fernando Flcy. Todos os direitos reservados.</p>
+  </footer>
+</body>
+   
+</html>

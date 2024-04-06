@@ -1,0 +1,214 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+  background-color: #444;
+  padding: 10px 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Estilos para as seções */
+.section {
+  width: 100%;
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  width: 50%;
+  padding: 15px;
+  
+  
+}
+
+.section p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Estilos para os documentos */
+.documentos img {
+  width: 30%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+ 
+  /* Estilos para os links dos documentos */
+
+.pdf-link {
+  display: block;
+  padding: 10px 20px;
+  background-color: #6A7989;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.pdf-link:hover {
+  background-color: #0056b3;
+}
+
+
+/* Estilos para os vídeos */
+.videos iframe,
+.videos video {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Estilos para os ícones de redes sociais */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a.icon:hover {
+  transform: scale(1.1);
+}
+
+.social-icons a.icon.youtube {
+  background-image: url('YouTube.png');
+  background-size: cover;
+}
+
+.social-icons a.icon.facebook {
+  background-image: url('facebook.png');
+  background-size: cover;
+}
+
+.social-icons a.icon.instagram {
+  background-image: url('Instagram.png');
+  background-size: cover;
+}
+
+.social-icons a.icon.whatsapp {
+  background-image: url('whatsApp.png');
+  background-size: cover;
+}
+/* Estilos para os links das redes sociais */
+.social-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #010203;
+  color: #D1C5C5A6;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 10px 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #0056b3;
+}
+/* Estilos para o link de voltar à página inicial */
+.back-to-home {
+  position: fixed;
+  bottom: 20px; /* Ajuste conforme necessário para definir a distância do botão ao fundo */
+  left: 20px; /* Ajuste conforme necessário para definir a distância do botão à esquerda */
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.back-to-home:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+  color: #fff;
+}

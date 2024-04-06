@@ -1,0 +1,139 @@
+header h1 {
+  text-align: center; /* Centraliza o texto */
+  font-size: 2rem; /* Tamanho da fonte */
+  margin-top: 0; /* Remove a margem superior padrão */
+  margin-bottom: 20px; /* Adiciona espaçamento inferior */
+  color: #333; /* Cor do texto */
+  text-transform: uppercase; /* Transforma o texto em maiúsculas */
+  background-color: #BFC1D0A1;  
+  text-decoration-color: #E8EAF3BA;
+}
+
+
+/* Estilos para a navegação */
+nav {
+  background-color: #333; /* Cor de fundo */
+  padding: 10px 0; /* Espaçamento interno */
+  display: flex; /* Usando flexbox */
+  flex-direction: column; /* Exibir itens em coluna */
+  align-items: center; /* Alinhar os itens centralmente */
+}
+
+nav ul {
+  list-style-type: none; /* Remover marcadores de lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Usando flexbox */
+  flex-wrap: wrap; /* Quebrar linha quando necessário */
+}
+
+nav ul li {
+  width: 50%; /* Largura de 50% para exibir em duas colunas */
+  margin-bottom: 10px; /* Espaçamento inferior entre os itens */
+}
+
+nav ul li a {
+  color: #fff; /* Cor do texto */
+  text-decoration: none; /* Remover sublinhado */
+  font-weight: bold; /* Texto em negrito */
+  font-size: 18px; /* Tamanho da fonte */
+  padding: 10px; /* Preenchimento interno */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+  display: flex; /* Usando flexbox */
+  align-items: center; /* Alinhar os itens centralmente */
+  border: 2px solid #fff; /* Adicionar borda sólida */
+}
+
+
+/* Estilo de hover para os links */
+nav ul li a:hover {
+  background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+/* Estilos para as seções */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #333; /* Linha decorativa abaixo do título */
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.social-icons a.icon.youtube {
+  background-image: url('YouTube.png');
+  background-size: cover;
+}
+
+.social-icons a.icon.facebook {
+  background-image: url('facebook.png');
+  background-size: cover;
+}
+
+.social-icons a.icon.instagram {
+  background-image: url('Instagram.png');
+  background-size: cover;
+}
+
+.social-icons a.icon.whatsapp {
+  background-image: url('whatsApp.png');
+  background-size: cover;
+}
+/* Estilos para o link de voltar à página inicial */
+.back-to-home {
+  position: fixed;
+  bottom: 20px; /* Ajuste conforme necessário para definir a distância do botão ao fundo */
+  left: 20px; /* Ajuste conforme necessário para definir a distância do botão à esquerda */
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.back-to-home:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+  color: #fff;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Jogo de Quiz de Eletricidade</title>
+</head>
+<body>
+  <header>
+      <a href="pagina principal.html" class="back-to-home">Sair do Jogo</a>
+      
+    <h1>Jogo de Quiz de Eletricidade</h1>
+  </header>
+  <audio id="audio-correto" src="correto.mp3"></audio>
+  <audio id="audio-incorreto" src="incorreto.mp3"></audio>
+  <div class="container">
+    <div id="introducao" class="texto-introducao">
+      <h2>Bem-vindo ao Quiz de Eletricidade!</h2>
+      <p>Teste seus conhecimentos sobre Eletricidade respondendo às perguntas deste jogo.</p>
+    </div>
+    <button id="botao-iniciar" onclick="this.style.display = 'none';" style="background-color: blue; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease;">Iniciar Jogo</button>
+    <div id="container-quiz" class="escondido">
+      <div id="pergunta" class="pergunta-coluna"></div>
+      <div id="respostas" class="container-botoes"></div>
+      <div id="feedback-container" class="feedback-container">
+        <div id="feedback"></div>
+      </div>
+      <div id="progresso"></div>
+    </div>
+    <div id="resultado" class="escondido">
+      <h2>FIM DO JOGO!</h2>
+      <p>Sua Pontuação Final: <span id="pontuacao-final">0</span></p>
+      <div id="botoes-finais">
+        <button id="botao-reiniciar" class="btn">Reiniciar Jogo</button>
+        <button id="botao-sair" class="btn">Sair do Jogo</button>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="social-icons">
+  <a href="#" class="icon youtube"></a>
+  <a href="#" class="icon facebook"></a>
+  <a href="#" class="icon instagram"></a>
+  <a href="#" class="icon whatsapp"></a>
+</div>
+    <p>&copy; 2023 Fernando Flcy. Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
